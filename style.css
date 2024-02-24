@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -19,9 +18,9 @@ a {
 }
 
 hr {
-    width: 100%;
+    width: 99.4vw;
     border: 0;
-    height: 2px;
+    height: 0.2745vh;
     background-color: gold;
 }
 
@@ -43,51 +42,55 @@ hr {
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 0.6vw;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #ffffff;
-    border-radius: 20px;
+    background-color: #f3eaeacf;
+    border-radius: 1.2vw;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: gold;
-    border-radius: 10px;
+    border-radius: 0.6vw;
 }
 
 .sidebar {
-    height: 150px;
-    width: 4px;
+    height: 21vh;
+    width: 0.24vw;
     background-color: gold;
     position: fixed;
-    top: 66.8px;
-    left: 70px;
+    top: 8.93vh;
+    left: 4.2vw;
 }
 
 .line {
-    height: 2px;
-    width: 100%;
+    height: 0.2745vh;
+    width: 99.4vw;
     background-color: gold;
     position: fixed;
-    top: 64.8px;
+    top: 8.6vh;
     z-index: 30;
 }
 
 .sidebar2 {
-    height: 100px;
-    width: 4px;
+    height: 13.72vh;
+    width: 0.24vw;
     background-color: gold;
     position: fixed;
-    top: 390.8px;
-    left: 70px;
+    top: 52.639vh;
+    left: 4.2vw;
 }
 
 .media {
     position: fixed;
-    top: 220px;
-    left: 50px;
+    top: 29.196vh;
+    left: 2.9vw;
     z-index: 10;
+}
+
+.media svg {
+    height: 4.1176vh;
 }
 
 .media a {
@@ -95,65 +98,70 @@ hr {
     flex-direction: row;
     text-decoration: none;
     color: white;
-    font-size: 20px;
-    margin: 10px;
+    font-size: 2.745vh;
+    margin: 1.372vh;
 }
 
 .navbar {
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
     z-index: 10;
+    height: 8.894vh;
     width: 100%;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
+    padding: 1.2vh 1.8vw;
     position: fixed;
     top: 0px;
 }
 
 .logo img {
-    height: 40px;
-    margin-left: 50px;
+    height: 5.49vh;
+    margin-left: 3vw;
 }
 
 .navbar button {
-    width: 90px;
-    padding: 5px;
-    margin-right: 50px;
+    width: max-content;
+    padding: 0.5vh 0.4vw;
+    margin-right: 3vw;
     transition: 0.1s;
     background-color: #c5ae6a;
+    border: none;
 }
 
 .navbar button a {
-    font-size: 18px;
+    font-size: 2.47vh;
     font-weight: 600;
 }
 
 .navbar button:hover a {
-    font-size: 20px;
+    font-size: 2.54vh;
 }
 
 .navbar button:hover {
     background-color: gold;
-    border-radius: 10px;
-    box-shadow: 0px 0px 150px 5px goldenrod;
+    border-radius: 1.372vh;
+    box-shadow: 0px 0px 20vh 0.6vh goldenrod;
 }
 
 .nav-list {
     list-style: none;
     display: flex;
-    /* margin-left: 25%; */
+}
+
+.nav-list svg {
+    height: 2.745vh;
 }
 
 .nav-list li {
-    margin: 0 40px 0 40px;
+    margin: 0 2vw 0 2vw;
 }
 
 .nav-list li a {
     color: white;
-    font-size: 25px;
+    font-size: 3.43vh;
     text-decoration: none;
     font-weight: 600;
     transition: 0.7s;
@@ -161,21 +169,21 @@ hr {
 
 .nav-list li a:hover {
     color: gold;
-    border-top: 2px solid gold;
+    border-top: 0.2745vh solid gold;
 }
 
 main {
-    height: calc(100vh - 64.8px);
-    width: 100%;
+    height: calc(100vh - 8.894vh);
+    width: 99.4vw;
     position: absolute;
-    top: 64.8px;
+    top: 8.894vh;
 }
 
 .content {
     position: absolute;
-    font-size: 25px;
-    top: 520px;
-    left: 30%;
+    font-size: 1.7vw;
+    top: 70vh;
+    left: 27vw;
     text-align: center;
     color: #fff;
 }
@@ -187,7 +195,7 @@ main {
 }
 
 .content span {
-    font-size: 50px;
+    font-size: 3vw;
     font-weight: 600;
     color: gold;
     font-variant: small-caps;
@@ -196,72 +204,75 @@ main {
 #image {
     position: absolute;
     top: 2vh;
-    left: 34%;
+    left: 33vw;
 }
-#image img{
+
+#image img {
     height: 65vh;
 }
 
 .about {
-    padding-top: 64.8px;
+    padding-top: 8.894vh;
     background-color: black;
-    width: 100%;
+    width: 99.4vw;
     height: 80vh;
     color: white;
-    padding-left: 150px;
-    font-size: 20px;
+    padding-left: 9vw;
+    font-size: 2.745vh;
 }
 
 .skills {
-    padding: 5px;
+    padding: 0.686vh;
+}
+
+.skills img {
+    height: 2.74vh;
 }
 
 .details {
     width: 65vw;
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 10px;
+    gap: 0.6vw;
 }
 
 .education {
-    padding: 5px;
-    border-left: 2px solid gold;
-    border-right: 2px solid gold;
+    padding: 0.686vh;
+    border-left: 0.12vw solid gold;
+    border-right: 0.12vw solid gold;
 }
 
 #avatar {
+    height: 27vh;
     transform: translate(70vw, -120%);
-    transition: transform 0.1s ease;
-    transform-style: preserve-3d;
-    will-change: transform;
 }
 
 .projects {
-    font-size: 20px;
+    font-size: 2.745vh;
     background-color: black;
-    width: 100%;
+    width: 99.4vw;
     height: 86vh;
     color: white;
-    padding-left: 150px;
-    padding-top: 64.8px;
+    padding-left: 9vw;
+    padding-top: 8.894vh;
 }
 
 .projects button {
-    margin: 10px;
-    font-size: 20px;
+    margin: 1.372vh;
+    font-size: 2.745vh;
     font-weight: 600;
-    padding: 4px;
-    width: 100px;
+    padding: 0.549vh 0.24vw;
+    width: max-content;
     background-color: #c2ab68;
     color: black;
-    border: 2px solid rgb(115, 115, 115);
+    border: 0.12vw solid rgb(115, 115, 115);
     transition: 0.1s;
 }
 
 .allprojects button:hover {
     background-color: gold;
-    border-radius: 10px;
-    box-shadow: 0px 0px 150px 5px goldenrod;
+    border-radius: 1.5vh;
+    box-shadow: 0px 0px 20vh 0.6vh goldenrod;
 }
 
 .allprojects {
@@ -271,96 +282,102 @@ main {
 }
 
 .allprojects div {
-    padding: 20px;
-    width: 500px;
-    box-shadow: 0px 0px 10px rgb(171, 154, 58);
+    padding: 2.745vh 1.2vw;
+    width: 30vw;
+    box-shadow: 0px 0px 1vh rgb(171, 154, 58);
     transition: 0.8s;
 
 }
 
 .allprojects div h1 {
+    font-size: 4vh;
     color: gold;
 }
 
 .allprojects div:hover {
     transform: scale(1.02);
-    box-shadow: 0px 0px 17px gold;
-    border-radius: 25px;
+    box-shadow: 0px 0px 2vh gold;
+    border-radius: 3.431vh;
 }
 
-
-
 .allprojects div img {
-    width: 400px;
+    width: 28vw;
 }
 
 #viewall {
-    transform: translateX(540px);
+    width: max-content;
+    transform: translateX(33.4vw);
 }
 
 #viewall:hover {
     background-color: gold;
-    border-radius: 10px;
-    box-shadow: 0px 0px 150px 5px goldenrod;
+    border-radius: 1.372vh;
+    box-shadow: 0px 0px 20vh 0.6vh goldenrod;
 }
 
 .contact {
     background-color: black;
-    width: 100%;
+    width: 99.4vw;
     height: 75vh;
     color: white;
-    padding-left: 150px;
-    font-size: 20px;
+    padding-left: 9vw;
+    font-size: 2.745vh;
     display: grid;
     grid-template-columns: 50% 50%;
-    padding-top: 64.8px;
+    padding-top: 8.894vh;
 }
 
 .contact form {
-    margin-left: 150px;
+    margin-left: 9vw;
+}
+
+.contact svg {
+    height: 3.3vh;
 }
 
 .contact form input {
     background-color: transparent;
     border: 1px solid rgb(115, 115, 115);
-    width: 400px;
+    width: 24vw;
     color: #fff;
-    height: 40px;
-    font-size: 20px;
+    height: 5.49vh;
+    font-size: 2.745vh;
 
 }
 
 form textarea {
-    width: 400px;
+    width: 24vw;
+    height: 13.7vh;
     background-color: transparent;
-    border: 1px solid rgb(115, 115, 115);
+    border: 0.01vh solid rgb(115, 115, 115);
     color: #fff;
-    /* font-size: 20px; */
 }
 
 form button {
-    width: 100px;
-    padding: 5px;
+    width: 6vw;
+    padding: 0.586vh 0.3vw;
     background-color: #c5ae6a;
     color: black;
-    font-size: 15px;
-    margin-left: 150px;
+    font-size: 2vh;
+    margin-left: 9vw;
+    border: none;
 }
 
 form button:hover {
     background-color: #ffd700;
-    border-radius: 15px;
-    box-shadow: 0px 0px 150px 5px goldenrod;
+    border-radius: 2vh;
+    box-shadow: 0px 0px 20vh 0.6vh goldenrod;
 }
 
 footer {
-    height: 50px;
+    font-size: 2.3vh;
+    height: 6.862vh;
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: 99.4vw;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 1.372vh 0;
     background-color: rgb(0, 0, 0);
 }
 
@@ -386,3 +403,69 @@ footer {
         width: 0
     }
 } */
+@media only screen and (max-width:786px) {
+    .navbar {
+        display: block;
+        overflow-y: hidden;
+    }
+
+    .nav-list {
+        margin-top: 2vh;
+        display: block;
+        text-align: center;
+    }
+
+    .nav-list li {
+        padding: 5vh 0;
+
+    }
+
+    .navbar button {
+        margin-left: 45vw;
+        background-color: gold;
+        height: 4vh;
+    }
+
+    #image {
+        left: 24vw;
+    }
+
+    .content {
+        font-size: 2vw;
+        left: 25vw;
+    }
+
+    .content span {
+        font-size: 4vw;
+    }
+
+    .media {
+        left: 2vw;
+    }
+
+    .about {
+        height: 90vh;
+    }
+
+    #avatar {
+        display: none;
+    }
+
+    .allprojects {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .allprojects div{
+        margin-bottom: 3vh;
+        width: 50vw;
+        font-size: 1.7vw;
+    }
+    .projects{
+        height: 120vh;
+    }
+    #viewall{
+
+        transform: translateX(37.4vw);
+    }
+
+}
