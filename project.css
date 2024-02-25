@@ -78,7 +78,7 @@ hr {
     width: 0.24vw;
     background-color: gold;
     position: fixed;
-    top:52.639vh;
+    top: 52.639vh;
     left: 4.2vw;
 }
 
@@ -88,9 +88,11 @@ hr {
     left: 2.9vw;
     z-index: 10;
 }
-.media svg{
+
+.media svg {
     height: 4.1176vh;
 }
+
 .media a {
     display: flex;
     flex-direction: row;
@@ -135,7 +137,9 @@ hr {
 .navbar button:hover a {
     font-size: 2.54vh;
 }
-
+.menubar{
+    display: none;
+}
 .navbar button:hover {
     background-color: gold;
     border-radius: 1.372vh;
@@ -146,7 +150,8 @@ hr {
     list-style: none;
     display: flex;
 }
-.nav-list svg{
+
+.nav-list svg {
     height: 2.745vh;
 }
 
@@ -166,7 +171,9 @@ hr {
     color: gold;
     border-top: 0.2745vh solid gold;
 }
-
+#cross{
+    display: none;
+}
 .projects {
     width: 99.4vw;
     background-color: rgb(0, 0, 0);
@@ -175,7 +182,7 @@ hr {
 }
 
 .projects h1 {
-    padding-top:1.372vh;
+    padding-top: 1.372vh;
     font-size: 5.5vh;
     text-align: center;
 }
@@ -211,7 +218,7 @@ hr {
     height: 68.62vh;
     width: 42vw;
     color: #fff;
-    margin:7vh;
+    margin: 7vh;
     box-shadow: 0px 0px 1vh rgb(171, 154, 58);
     transition: 0.6s;
 }
@@ -246,4 +253,184 @@ footer {
     text-align: center;
     padding: 1.372vh 0;
     background-color: rgb(0, 0, 0);
+}
+.social{
+    display: none;
+}
+
+@media only screen and (max-width:786px) {
+
+    .navbar {
+        display: block;
+        height: 55px;
+        overflow-y: hidden;
+    }
+
+    .navbar.responsive {
+        height: max-content;
+        display: block;
+    }
+
+    .nav-list {
+        margin-top: 2vh;
+        display: block;
+        text-align: center;
+    }
+
+    .nav-list li {
+        padding: 5vh 0;
+
+    }
+
+    .navbar button {
+        margin-left: 45vw;
+        background-color: gold;
+        height: 4vh;
+    }
+
+    .navbar .menubar {
+        display: block;
+        position: fixed;
+        top: 2vh;
+        right: 2vw;
+    }
+    .navbar .cross{
+        display: block;
+        position: fixed;
+        top: 2vh;
+        right: 2vw;
+    }
+    .media{
+        left:2vw
+    }
+    .logo img {
+        margin-top: 5px;
+        height: 25px;
+        margin-left: 2px;
+    }
+    .projects{
+        width: 100vw;
+    }
+    .projects button{
+        background-color: gold;
+        border-radius: 1.372vh;
+    }
+    .allprojects div{
+        width: 80vw;
+        height: max-content;
+        filter: grayscale(0);
+        transform: scale(1);
+        box-shadow: 0px 0px 10px gold;
+        border-radius: 3vh;
+    }
+    .allprojects div p {
+        font-size: 3vh;
+    }
+    .projects div img {
+        width: 70vw;
+    }
+
+    footer {
+        height: max-content;
+        padding: none;
+        width: 100vw;
+    }
+
+    .line {
+        width: 100vw;
+    }
+}
+@media only screen and (max-width:450px) {
+
+
+    .sidebar,
+    .sidebar2,
+    .media {
+        display: none;
+    }
+    .navbar {
+        display: block;
+        height: 55px;
+        overflow-y: hidden;
+    }
+
+    .navbar.responsive {
+        height: max-content;
+        display: block;
+    }
+
+    .nav-list {
+        margin-top: 2vh;
+        display: block;
+        text-align: center;
+    }
+
+    .nav-list li {
+        padding: 5vh 0;
+
+    }
+
+    .navbar button {
+        margin-left: 38vw;
+        width: 100px;
+        background-color: gold;
+        height: 5vh;
+    }
+
+    .navbar .menubar {
+        display: block;
+        position: fixed;
+        top: 2vh;
+        right: 2vw;
+    }
+    .logo img {
+        margin-top: 5px;
+        height: 25px;
+        margin-left: 2px;
+    }
+    .projects {
+        width: 100vw;
+    }
+
+    .projects button {
+        background-color: gold;
+        border-radius: 5px;
+    }
+
+    .allprojects div {
+        margin: none;
+        width: 90vw;
+        height: max-content;
+        filter: grayscale(0);
+    }
+    .allprojects div:hover {
+        filter: grayscale(0);
+        transform: scale(1);
+        box-shadow: 0px 0px 5px gold;
+        border-radius: 5px;
+    }
+    .projects div img {
+        width: 84vw;
+        height: auto;
+    }
+    .social svg {
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .social {
+        display:inline-flex;
+        gap: 2vw;
+    }
+
+    .social svg {
+        height: 20px;
+    }
+
+    footer {
+        height: max-content;
+        padding: none;
+        width: 100vw;
+    }
 }
