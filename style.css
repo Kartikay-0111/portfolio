@@ -421,6 +421,9 @@ footer {
         height: 55px;
         overflow-y: hidden;
     }
+    .line{
+        top: 55px;
+    }
 
     .navbar.responsive {
         height: max-content;
