@@ -502,8 +502,9 @@ footer {
     }
 
     .allprojects div button {
+        width: 70px;
         background-color: gold;
-        border-radius: 10px;
+        border-radius: 5px;
     }
 
     .projects {
@@ -646,9 +647,9 @@ footer {
 
     .allprojects div button {
         height: fit-content;
-        font-size: small;
+        font-size: large;
         background-color: gold;
-        border-radius: 1.5vh;
+        border-radius: 5px;
         box-shadow: 0px 0px 20vh 0.6vh goldenrod;
     }
 

@@ -308,12 +308,15 @@ footer {
         height: 25px;
         margin-left: 2px;
     }
+    .line{
+        top: 55px;
+    }
     .projects{
         width: 100vw;
     }
     .projects button{
         background-color: gold;
-        border-radius: 1.372vh;
+        border-radius: 0px;
     }
     .allprojects div{
         width: 80vw;
