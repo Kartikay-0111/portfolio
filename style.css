@@ -568,13 +568,13 @@ footer {
     }
 
     #image {
-        width: 70vw;
-        left: 15vw;
+        width: 90vw;
+        left: 5vw;
     }
 
     #image img {
 
-        width: 70vw;
+        width: 90vw;
         aspect-ratio: 1/1;
     }
 
@@ -650,7 +650,6 @@ footer {
         font-size: large;
         background-color: gold;
         border-radius: 5px;
-        box-shadow: 0px 0px 20vh 0.6vh goldenrod;
     }
 
     .allprojects div img {
@@ -696,7 +695,7 @@ footer {
     }
 
     .social svg {
-        height: 20px;
+        height: 30px;
         display: flex;
         flex-direction: row;
         justify-content: center;
